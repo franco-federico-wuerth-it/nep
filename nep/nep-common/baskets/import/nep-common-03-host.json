@@ -828,11 +828,6 @@
                     "var_filter": "host.vars.nx_enable_nep_ss=true"
                 },
                 {
-                    "datafield_id": 169,
-                    "is_required": "n",
-                    "var_filter": null
-                },
-                {
                     "datafield_id": 170,
                     "is_required": "n",
                     "var_filter": "host.vars.nx_notification_basic_mode_host!=%22disabled%22"
@@ -1423,18 +1418,6 @@
                 "datalist": "[NX] Default service sets List"
             },
             "category": "Common Settings (Advanced)"
-        },
-        "169": {
-            "uuid": "4da875aa-e0f3-441a-ac06-a9e0d8d74a3c",
-            "varname": "neteye_tenant",
-            "caption": "Tenant",
-            "description": null,
-            "datatype": "Icinga\\Module\\Director\\DataType\\DataTypeString",
-            "format": null,
-            "settings": {
-                "visibility": "visible"
-            },
-            "category": null
         },
         "170": {
             "uuid": "87246f58-974b-4a66-9708-c38b00000440",
